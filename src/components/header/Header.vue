@@ -10,6 +10,7 @@ const setActive = (value) => {
 
 <template>
     <header class="header">
+
         <div class="container">
             <div class="header__content">
                 <h3>Инвестиционно-финансовая компания</h3>
@@ -34,6 +35,7 @@ const setActive = (value) => {
                 </button>
             </div>
         </div>
+
         <nav class="nav">
             <div class="container">
                 <div class="nav__content">
@@ -59,6 +61,7 @@ const setActive = (value) => {
                 </div>
             </div>
         </nav>
+
         <section class="section">
             <div class="container">
                 <div class="section__content">
@@ -87,7 +90,9 @@ const setActive = (value) => {
                             </div>
                         </div>
                     </div>
+
                     <img src="@/assets/img/headercenter.png" alt="" class="section__content-center">
+                    
                     <div class="section__content-right">
                         <button>
                             <img src="@/assets/img/headerseclft.svg" alt="">

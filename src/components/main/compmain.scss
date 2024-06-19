@@ -43,7 +43,401 @@
         }
 
         &-content {
+            display: flex;
+            flex-direction: column;
+            gap: 46px;
             background-color: $navbg;
+            border-radius: 64px 6px 64px 6px;
+            padding: 83px 62px 122px;
+
+            h2 {
+                font-size: 34px;
+                line-height: 37.4px;
+                color: black;
+                font-weight: 400;
+            }
+
+            &-btn {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+
+                &-range {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    &:nth-child(2) {
+                        padding: 46px 0;
+                    }
+
+                    &:nth-child(4) {
+                        padding-top: 38px;
+                    }
+
+                    &-top {
+                        display: flex;
+                        justify-content: space-between;
+
+                        output {
+                            font-size: 18px;
+                            line-height: 18px;
+                            text-align: right;
+                            color: black;
+                            font-family: "Ubuntu-Bold";
+                        }
+                    }
+
+                    .second-slide {
+                        position: relative;
+                        max-width: 460px;
+                        width: 100%;
+
+                        &::after {
+                            content: url(@/assets/img/longb.svg);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+
+                        &::before {
+                            content: url(@/assets/img/roundb.png);
+                            position: absolute;
+                            top: -5px;
+                            left: 282px;
+                            z-index: 1;
+                            cursor: pointer;
+                        }
+
+                        .second-round {
+                            position: absolute;
+                            top: 7px;
+                            right: 160px;
+                            z-index: 2;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .slide {
+                        position: relative;
+                        max-width: 460px;
+                        width: 100%;
+
+                        &::after {
+                            content: url(@/assets/img/brange.svg);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+
+                        &::before {
+                            content: url(@/assets/img/roundb.png);
+                            position: absolute;
+                            top: -5px;
+                            left: 40%;
+                            z-index: 1;
+                            cursor: pointer;
+                        }
+
+                        &__round {
+                            position: absolute;
+                            top: 7px;
+                            left: 195px;
+                            z-index: 2;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .third-slide {
+                        position: relative;
+                        max-width: 460px;
+                        width: 100%;
+
+                        &::after {
+                            content: url(@/assets/img/shortb.svg);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+
+                        &::before {
+                            content: url(@/assets/img/roundb.png);
+                            position: absolute;
+                            top: -5px;
+                            left: 102px;
+                            z-index: 1;
+                            cursor: pointer;
+                        }
+
+                        .third-round {
+                            position: absolute;
+                            top: 7px;
+                            left: 114px;
+                            z-index: 2;
+                            cursor: pointer;
+                        }
+                    }
+
+                }
+
+                &-check {
+                    display: flex;
+                    gap: 15px;
+                    flex-direction: column;
+
+                    &-block {
+                        display: flex;
+                        gap: 12px;
+                        align-items: center;
+
+                        button {
+                            background-color: transparent;
+                            border: 1px solid $itemcolor;
+                            border-radius: 20px 0px 20px 0px;
+                            padding: 15px 17px;
+                            outline: none;
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
+                            cursor: pointer;
+                            transition: .5s;
+
+                            label {
+                                color: $itemcolor;
+                                cursor: pointer;
+                            }
+                        }
+
+                        button.active {
+                            background-color: $white;
+                            border: none;
+
+                            label {
+                                color: black;
+                            }
+                        }
+                    }
+                }
+
+                &-center {
+                    width: 390px;
+                    height: 374px;
+                    position: relative;
+
+                    &-img {
+                        position: absolute;
+                        bottom: -3px;
+                        left: -5px;
+
+                        &:nth-child(2) {
+                            bottom: 10px;
+                            left: 59px;
+                        }
+
+                        &:nth-child(3) {
+                            bottom: 33px;
+                            left: 125px;
+                        }
+
+                        &:nth-child(4) {
+                            bottom: 65px;
+                            left: 189px;
+                        }
+
+                        &:nth-child(5) {
+                            bottom: 115px;
+                            left: 255px;
+                        }
+
+                        &:nth-child(6) {
+                            bottom: 189px;
+                            left: 319px;
+                        }
+                    }
+
+                    &::before {
+                        content: url(../../assets/img/stick.svg);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    &::after {
+                        content: url(../../assets/img/stick.svg);
+                        position: absolute;
+                        top: 0;
+                        left: 64px;
+                    }
+
+                    &-stc {
+                        position: absolute;
+                        top: 0;
+                        left: 129px;
+                    }
+
+                    img {
+
+                        &:nth-child(8) {
+                            position: absolute;
+                            top: 0;
+                            left: 194px;
+                        }
+
+                        &:nth-child(9) {
+                            position: absolute;
+                            top: 0;
+                            left: 259px;
+                        }
+
+                        &:nth-child(10) {
+                            position: absolute;
+                            top: 0;
+                            left: 324px;
+                        }
+                    }
+                }
+
+                &-right {
+                    background-color: $white;
+                    padding: 27px 57px 30px 34px;
+                    border-radius: 10px 10px 120px 10px;
+
+                    .perdist {
+                        padding: 21px 0 27px;
+                    }
+
+                    &-media {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 21px;
+                    }
+
+                    &-per {
+                        display: flex;
+                        flex-direction: column;
+
+                        output {
+                            color: $secblue;
+                            font-family: "Ubuntu-Bold";
+                            line-height: 39.6px;
+                            font-size: 36px;
+                        }
+
+                        span {
+                            font-size: 14px;
+                            line-height: 15.4px;
+                            color: black;
+                        }
+                    }
+
+                    button {
+                        background-color: $blue;
+                        width: 190px;
+                        line-height: 17.6px;
+                        text-align: center;
+                        color: white;
+                        outline: none;
+                        border: none;
+                        border-radius: 28px 0px 28px 0px;
+                        padding: 23px 0;
+                        cursor: pointer;
+
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+    &__resume {
+        max-width: 1589px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 117px 0 102px;
+
+        &-content {
+            display: flex;
+            gap: 30px;
+            justify-content: left;
+            align-items: center;
+
+            &-lft {
+                position: relative;
+                display: flex;
+                align-items: flex-end;
+                flex-direction: column;
+                gap: 30px;
+
+                &-top {
+                    position: relative;
+
+                    &::after {
+                        content: url(@/assets/img/resumeback.svg);
+                        position: absolute;
+                        top: 178px;
+                        right: 0;
+                        z-index: -1;
+                    }
+                }
+
+                button {
+                    display: flex;
+                    gap: 23px;
+                    justify-content: center;
+                    align-items: center;
+                    border: none;
+                    outline: none;
+                    background-color: $blue;
+                    border-radius: 28px 0px 28px 0px;
+                    color: $white;
+                    text-align: center;
+                    padding: 18px 17px;
+                }
+            }
+
+            &-rgt {
+                h3 {
+                    font-size: 34px;
+                    line-height: 37.4px;
+                    color: black;
+                    font-weight: 400;
+                }
+
+                span {
+                    display: block;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #6489A0;
+                    padding: 34px 0 24px;
+                }
+
+                .second-num {
+                    padding: 20px 0 3px;
+                }
+
+                &-num {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    p {
+                        font-size: 24px;
+                        line-height: 26.4px;
+                        color: black;
+                        font-family: "Ubuntu-Bold";
+                    }
+                }
+
+                &-p {
+                    font-size: 20px;
+                    line-height: 28px;
+                    width: 626px;
+                    color: #6489A0;
+                }
+            }
         }
     }
+
 }
