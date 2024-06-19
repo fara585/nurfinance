@@ -35,4 +35,15 @@
             }
         }
     }
+
+    &__earn {
+
+        .container {
+            padding: 0;
+        }
+
+        &-content {
+            background-color: $navbg;
+        }
+    }
 }
