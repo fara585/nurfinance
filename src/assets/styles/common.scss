@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Ubuntu-Regular";
+}
+
+.container {
+    max-width: 1368px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 26px;
+}
+
+$itemcolor: #6E9BB8;
+$blue: #0000DE;
+$secblue: #355DFB;
+$navbg: #F0F4F8;
+$white: #ffff;

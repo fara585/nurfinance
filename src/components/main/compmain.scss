@@ -1,0 +1,38 @@
+.main {
+
+    .container {
+        padding: 0 61px;
+    }
+
+    &__content-cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 123px 0 111px;
+
+        &-card {
+            display: flex;
+            gap: 21px;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                width: 200px;
+                color: black;
+                line-height: 22.4px;
+            }
+        }
+
+        &-block {
+            position: relative;
+
+            img {
+                &:nth-child(1) {
+                    position: absolute;
+                    top: -7px;
+                    left: -5px;
+                }
+            }
+        }
+    }
+}
