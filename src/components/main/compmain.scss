@@ -440,4 +440,742 @@
         }
     }
 
+    &__graph {
+        max-width: 1244px;
+        width: 100%;
+        margin: 0 auto;
+
+        &-content-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            &-lft {
+                display: flex;
+                flex-direction: column;
+                gap: 19px;
+
+                h3 {
+                    font-size: 34px;
+                    line-height: 37.4px;
+                    color: black;
+                }
+
+                p {
+                    width: 667px;
+                    color: $itemcolor;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+
+            &-rgt {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 32px;
+
+                &-block {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 11px;
+
+                    span {
+                        font-size: 17px;
+                        line-height: 23.8px;
+                        color: black;
+                        font-family: "Ubuntu-Bold";
+                    }
+
+                }
+
+            }
+        }
+
+        &-sec {
+            position: relative;
+            max-width: 1244px;
+            width: 100%;
+            height: 556.99px;
+            margin: 0 auto;
+            padding: 60px 0 68px;
+            // border: 1px solid red;
+
+            .stick {
+                position: absolute;
+                top: 0;
+                width: 1px;
+                height: 556.99px;
+                background: linear-gradient(180deg, rgba(198, 217, 233, 0) 0%, #C6D9E9 49.48%, rgba(198, 217, 233, 0) 100%);
+            }
+
+            .two {
+                left: 123.59px;
+            }
+
+            .thre {
+                left: 248px;
+            }
+
+            .four {
+                left: 372.41px;
+            }
+
+            .five {
+                left: 496.82px;
+            }
+
+            .six {
+                left: 621.22px;
+            }
+
+            .sev {
+                right: 496.82px;
+            }
+
+            .eig {
+                right: 372.41px;
+            }
+
+            .nine {
+                right: 248px;
+            }
+
+            .ten {
+                right: 123.59px;
+            }
+
+            .elv {
+                right: 0;
+            }
+
+            .grf {
+                position: absolute;
+                height: 3px;
+                background-color: $blue;
+                z-index: 10;
+            }
+
+            .pos1 {
+                width: 140px;
+                left: -6px;
+                bottom: 391.11px;
+                rotate: -28.77deg;
+            }
+
+            .pos2 {
+                width: 156px;
+                left: 108px;
+                top: 178px;
+                rotate: -141.89deg;
+            }
+
+            .pos3 {
+                width: 124.79px;
+                left: 248px;
+                top: 231px;
+                rotate: -175.14deg;
+            }
+
+            .pos4 {
+                width: 124px;
+                left: 373px;
+                top: 241px;
+                rotate: -175.52deg;
+            }
+
+            .pos5 {
+                width: 124px;
+                left: 497px;
+                top: 240px;
+                rotate: 175.14deg;
+            }
+
+            .pos6 {
+                width: 125px;
+                left: 621px;
+                top: 239px;
+                rotate: -175.52deg;
+            }
+
+            .pos7 {
+                width: 130px;
+                right: 371px;
+                top: 227px;
+                rotate: 164.3deg;
+            }
+
+            .pos8 {
+                width: 136.14px;
+                right: 242px;
+                top: 237px;
+                rotate: -156.04deg;
+            }
+
+            .pos9 {
+                width: 124.43px;
+                right: 124px;
+                top: 263px;
+                rotate: 178.85deg;
+            }
+
+            .pos10 {
+                width: 124.58px;
+                right: 0;
+                top: 259px;
+                rotate: 177.03deg;
+            }
+
+            .round {
+                position: absolute;
+                width: 11.38px;
+                height: 11.38px;
+                background-color: $white;
+                border: 4px solid #0000DE;
+                border-radius: 50px;
+                z-index: 10;
+            }
+
+            .rnd {
+                position: absolute;
+                width: 11.38px;
+                height: 11.38px;
+                background-color: $white;
+                border: 4px solid $secblue;
+                border-radius: 50px;
+                z-index: 10;
+            }
+
+            .r1 {
+                top: 193px;
+                left: -4px;
+            }
+
+            .r2 {
+                top: 126px;
+                left: 119px;
+            }
+
+            .r3 {
+                top: 221px;
+                left: 243.94px;
+            }
+
+            .r4 {
+                top: 232px;
+                left: 367px;
+            }
+
+            .r5 {
+                top: 241px;
+                left: 491px;
+            }
+
+            .r6 {
+                top: 230px;
+                left: 616px;
+            }
+
+            .r7 {
+                top: 239px;
+                right: 492px;
+            }
+
+            .r8 {
+                top: 205px;
+                right: 368px;
+            }
+
+            .r9 {
+                top: 260px;
+                right: 242px;
+            }
+
+            .r10 {
+                top: 258px;
+                right: 119px;
+            }
+
+            .r11 {
+                top: 251px;
+                right: -5px;
+            }
+
+            .grp {
+                position: absolute;
+                height: 3px;
+                z-index: 10;
+                background-color: $secblue;
+            }
+
+            .grp1 {
+                width: 128.8px;
+                left: -2px;
+                bottom: 225.24px;
+                rotate: -15deg;
+            }
+
+            .grp2 {
+                width: 135.98px;
+                left: 118px;
+                bottom: 215px;
+                rotate: -155.9deg;
+            }
+
+            .grp3 {
+                width: 125.39px;
+                left: 248px;
+                bottom: 184px;
+                rotate: -177.08deg;
+            }
+
+            .grp4 {
+                width: 125.32px;
+                left: 373px;
+                bottom: 177.9px;
+                rotate: 2.23deg;
+            }
+
+            .grp5 {
+                width: 124.5px;
+                left: 498px;
+                bottom: 178px;
+                rotate: 177.77deg;
+            }
+
+            .grp6 {
+                width: 124.47px;
+                right: 497px;
+                bottom: 179px;
+                rotate: -178.13deg;
+            }
+
+            .grp7 {
+                width: 126.38px;
+                right: 372px;
+                bottom: 186px;
+                rotate: 172.18deg;
+            }
+
+            .grp8 {
+                width: 126.3px;
+                right: 248px;
+                bottom: 182px;
+                rotate: -168.11deg;
+            }
+
+            .grp9 {
+                width: 125.22px;
+                right: 124px;
+                bottom: 169px;
+                rotate: -179.63deg;
+            }
+
+            .grp10 {
+                width: 124.5px;
+                right: 0;
+                bottom: 171px;
+                rotate: 177.75deg;
+            }
+
+            .perc {
+                position: absolute;
+                width: 81.31px;
+                text-align: center;
+                background-color: $white;
+                color: $blue;
+                line-height: 22.4px;
+                font-family: "Ubuntu-Bold";
+                box-shadow: 4px 4px 30px 0px #14182217;
+                border-radius: 8px;
+                padding: 3.25px;
+                z-index: 20;
+            }
+
+            .per1 {
+                bottom: 315px;
+                left: -39.03px;
+            }
+
+            .per2 {
+                bottom: 379px;
+                left: 83.55px;
+                z-index: 20;
+            }
+
+            .per3 {
+                bottom: 290px;
+                left: 208.97px;
+            }
+
+            .per4 {
+                bottom: 280px;
+                left: 333.38px;
+            }
+
+            .per5 {
+                bottom: 270px;
+                left: 457.79px;
+            }
+
+            .per6 {
+                bottom: 280px;
+                left: 582.2px;
+            }
+
+            .per7 {
+                bottom: 268px;
+                right: 456.97px;
+            }
+
+            .per8 {
+                bottom: 300px;
+                right: 333.38px;
+            }
+
+            .per9 {
+                bottom: 250px;
+                right: 208.16px;
+            }
+
+            .per10 {
+                bottom: 255px;
+                right: 84.56px;
+            }
+
+            .per11 {
+                bottom: 260px;
+                right: -39.84px;
+            }
+
+            .d1 {
+                bottom: 205px;
+                left: -4px;
+            }
+
+            .d2 {
+                bottom: 238px;
+                left: 118px;
+            }
+
+            .d3 {
+                bottom: 184px;
+                left: 243px;
+            }
+
+            .d4 {
+                bottom: 176px;
+                left: 366px;
+            }
+
+            .d5 {
+                bottom: 172px;
+                left: 491px;
+            }
+
+            .d6 {
+                bottom: 177px;
+                left: 617px;
+            }
+
+            .d7 {
+                bottom: 173px;
+                right: 491px;
+            }
+
+            .d8 {
+                bottom: 191px;
+                right: 368px;
+            }
+
+            .d9 {
+                bottom: 165px;
+                right: 242px;
+            }
+
+            .d10 {
+                bottom: 165px;
+                right: 119px;
+            }
+
+            .d11 {
+                bottom: 169px;
+                right: -5px;
+            }
+
+            &-date {
+                position: absolute;
+                left: 10px;
+                bottom: 41.04px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                overflow: hidden;
+
+                output {
+                    width: 104.89px;
+                    color: #6489A0;
+                    line-height: 22.4px;
+                }
+            }
+
+        }
+
+    }
+
+    &__info {
+        &-content {
+            padding: 68px 0 156px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &-left {
+                width: 466px;
+
+                h1 {
+                    font-size: 44px;
+                    line-height: 48.4px;
+                    font-family: "Ubuntu-Bold";
+                    padding-bottom: 36px;
+                    color: #000000;
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #6489a0;
+                }
+            }
+
+            &-right {
+                width: 668px;
+
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #6489a0;
+                }
+            }
+        }
+    }
+
+    &__user {
+        padding-bottom: 108px;
+
+        &-content {
+            display: flex;
+            gap: 15px;
+
+            &-card {
+                padding: 236px 40px 40px 40px;
+                width: 405px;
+                background: #f0f4f8;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                border-radius: 6px;
+
+                img {
+                    position: absolute;
+                    top: -100px;
+                }
+
+                .man3 {
+                    top: -150px;
+                    left: -5px;
+                }
+
+                &-shadow {
+                    width: 405px;
+                    height: 176px;
+                    z-index: 10;
+                    background: linear-gradient(180deg, rgba(240, 244, 248, 0) 0%, #f0f4f8 100%);
+                    position: absolute;
+                    left: 0;
+                    top: 40px;
+                }
+
+                &-bottom {
+                    h3 {
+                        color: #000000;
+                        font-size: 24px;
+                        line-height: 26px;
+                        padding: 10px 0 20px;
+                    }
+                }
+
+                &-invest {
+                    color: #79a6c3;
+                    font-size: 14px;
+                    line-height: 15px;
+                }
+
+                &-nums {
+                    &-box {
+                        display: flex;
+                        justify-content: space-between;
+
+                        h4 {
+                            font-size: 36px;
+                            line-height: 39px;
+                            color: $secblue;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            line-height: 15px;
+                            width: 135px;
+                            color: #000000;
+                            padding: 5px 0 25px;
+                        }
+                    }
+                }
+
+                &-btns {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 27px;
+
+                    button {
+                        font-size: 14px;
+                        line-height: 15px;
+                        color: white;
+                        background: $blue;
+                        padding: 15px 0;
+                        width: 166px;
+                        border: 0;
+                        border-radius: 20px 0px 20px 0px;
+                        cursor: pointer;
+
+                        &:nth-child(2) {
+                            background: $white;
+                            color: $blue;
+                            width: 133px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__ques {
+        margin-bottom: 81px;
+
+        &-content {
+            background: #f0f4f8;
+            width: 100%;
+            height: 354px;
+            border-radius: 64px 6px 64px 6px;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            padding: 0 62px;
+
+            &-left {
+                p {
+                    font-size: 34px;
+                    line-height: 37px;
+                    color: #000000;
+
+                    span {
+                        font-family: "Ubuntu-Bold";
+                        color: #0000de;
+                    }
+
+                    &:nth-child(2) {
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #6e9bb8;
+                        padding-top: 17px;
+                    }
+                }
+
+                &-btns {
+                    display: flex;
+                    padding-top: 33px;
+                    gap: 16px;
+                    margin-bottom: 52px;
+
+                    button {
+                        cursor: pointer;
+                        font-size: 16px;
+                        line-height: 17px;
+                        color: white;
+                        padding: 23px 0;
+                        width: 250px;
+                        background: #0000de;
+                        border-radius: 28px 0px 28px 0px;
+                        border: none;
+
+                        &:nth-child(2) {
+                            width: 153px;
+                            background: white;
+                            color: #0000de;
+                        }
+                    }
+                }
+            }
+
+            &-right {
+                position: relative;
+
+                img {
+                    position: relative;
+                    z-index: 30;
+
+                    &:nth-child(2) {
+                        position: absolute;
+                        left: -50px;
+                        top: 50px;
+                        z-index: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &__model {
+        &-content {
+            &-title {
+                font-size: 34px;
+                line-height: 37px;
+                color: #000000;
+                font-weight: 400;
+                padding-bottom: px;
+            }
+
+            &-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                &-lft {
+                    &-title {
+                        font-size: 25px;
+                        line-height: 35px;
+                        font-family: "Ubuntu-Bold";
+                        color: #0000de;
+                        padding-bottom: 40px;
+                    }
+
+                    &-block {
+                        display: flex;
+                        gap: 28px;
+
+                        &-texts {
+                            align-self: flex-end;
+                        }
+
+                        &-pics2 {
+                            order: 1;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

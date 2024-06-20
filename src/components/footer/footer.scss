@@ -1,0 +1,144 @@
+.footer {
+    background-color: $navbg;
+    padding: 87px 0 16px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+        &-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &-inp {
+                max-width: 891px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 18px;
+                background-color: $white;
+                border-radius: 6px;
+                padding: 11px;
+
+                input {
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    color: #79A6C3;
+                    font-size: 14px;
+                    line-height: 15.4px;
+
+                    &::placeholder {
+                        color: #79A6C3;
+                        font-size: 14px;
+                        line-height: 15.4px;
+                    }
+                }
+            }
+        }
+
+        &-center {
+            display: flex;
+            justify-content: space-between;
+            padding: 73px 0 62px;
+
+            &-lft {
+                display: flex;
+                flex-direction: column;
+                gap: 45px;
+
+                &-block {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    a {
+                        font-size: 37px;
+                        line-height: 40.7px;
+                        color: $blue;
+                        font-family: "Ubuntu-Bold";
+                    }
+
+                    span {
+                        color: $blue;
+                        font-size: 18px;
+                        line-height: 19.8px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        line-height: 13.2px;
+                        color: $itemcolor;
+                    }
+                }
+
+                &-social {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .block {
+                        width: 43px;
+                        height: 43px;
+                        border-radius: 6px;
+                        background-color: $white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            &-right {
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
+
+                h4 {
+                    font-size: 20px;
+                    line-height: 22px;
+                    color: $blue;
+                }
+
+            }
+
+            &-list {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                &-items {
+                    color: black;
+                    font-size: 14px;
+                    line-height: 15.4px;
+                }
+            }
+        }
+
+        &-btn * {
+            color: $itemcolor;
+            font-size: 12px;
+            line-height: 13.2px;
+
+        }
+
+        &-btn {
+            h3 {
+                font-family: "Ubuntu-Bold";
+            }
+
+            p {
+                width: 1245px;
+                padding: 11px 0 60px;
+            }
+
+            &-box {
+                display: flex;
+                align-items: center;
+                gap: 21px;
+            }
+        }
+    }
+}

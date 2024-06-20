@@ -1,4 +1,5 @@
 <script setup>
+
 </script>
 
 <template>
@@ -155,5 +156,302 @@
             </div>
         </section>
 
+        <section class="main__graph">
+            <div class="main__graph-content-top">
+                <div class="main__graph-content-top-lft">
+                    <h3>Доходность</h3>
+                    <p>Доходность портфеля компании и инвестиционных вкладов «Нурфинанс» в % годовых за последние 11
+                        месяцев</p>
+                </div>
+                <div class="main__graph-content-top-rgt">
+                    <div class="main__graph-content-top-rgt-block">
+                        <img src="../../assets/img/graph.svg" alt="">
+                        <span>Общая доходность</span>
+                    </div>
+                    <div class="main__graph-content-top-rgt-block">
+                        <img src="../../assets/img/grapg2.svg" alt="">
+                        <span>Средняя доходность инвесторов</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__graph-sec">
+            <span class="grf pos1"></span>
+            <span class="grf pos2"></span>
+            <span class="grf pos3"></span>
+            <span class="grf pos4"></span>
+            <span class="grf pos5"></span>
+            <span class="grf pos6"></span>
+            <span class="grf pos7"></span>
+            <span class="grf pos8"></span>
+            <span class="grf pos9"></span>
+            <span class="grf pos10"></span>
+            <span class="round r1"></span>
+            <span class="round r2"></span>
+            <span class="round r3"></span>
+            <span class="round r4"></span>
+            <span class="round r5"></span>
+            <span class="round r6"></span>
+            <span class="round r7"></span>
+            <span class="round r8"></span>
+            <span class="round r9"></span>
+            <span class="round r10"></span>
+            <span class="round r11"></span>
+            <span class="stick"></span>
+            <span class="stick two"></span>
+            <span class="stick thre"></span>
+            <span class="stick four"></span>
+            <span class="stick five"></span>
+            <span class="stick six"></span>
+            <span class="stick sev"></span>
+            <span class="stick eig"></span>
+            <span class="stick nine"></span>
+            <span class="stick ten"></span>
+            <span class="stick elv"></span>
+            <span class="perc per1">32,53%</span>
+            <span class="perc per2">38,42%</span>
+            <span class="perc per3">28,89%</span>
+            <span class="perc per4">27,66%</span>
+            <span class="perc per5">26,64%</span>
+            <span class="perc per6">27,60%</span>
+            <span class="perc per7">26,76%</span>
+            <span class="perc per8">29,88%</span>
+            <span class="perc per9">25,23%</span>
+            <span class="perc per10">25,20%</span>
+            <span class="perc per11">25,84%</span>
+            <span class="grp grp1"></span>
+            <span class="grp grp2"></span>
+            <span class="grp grp3"></span>
+            <span class="grp grp4"></span>
+            <span class="grp grp5"></span>
+            <span class="grp grp6"></span>
+            <span class="grp grp7"></span>
+            <span class="grp grp8"></span>
+            <span class="grp grp9"></span>
+            <span class="grp grp10"></span>
+
+            <span class="rnd d1"></span>
+            <span class="rnd d2"></span>
+            <span class="rnd d3"></span>
+            <span class="rnd d4"></span>
+            <span class="rnd d5"></span>
+            <span class="rnd d6"></span>
+            <span class="rnd d7"></span>
+            <span class="rnd d8"></span>
+            <span class="rnd d9"></span>
+            <span class="rnd d10"></span>
+            <span class="rnd d11"></span>
+
+            <div class="main__graph-sec-date">
+                <output>Сентябрь 2020</output>
+                <output>Октябрь <br> 2020</output>
+                <output>Ноябрь <br> 2020</output>
+                <output>Декабрь <br> 2020</output>
+                <output>Январь <br> 2021</output>
+                <output>Февраль 2021</output>
+                <output>Март <br> 2021</output>
+                <output>Апрель <br> 2021</output>
+                <output>Май <br> 2021</output>
+                <output>Июнь <br> 2021</output>
+                <output>Июль <br> 2021</output>
+            </div>
+
+        </section>
+
+        <section class="main__info">
+            <div class="container">
+                <div class="main__info-content">
+                    <div class="main__info-content-left">
+                        <h1>Инвестиционные продукты</h1>
+                        <p>
+                            ИФК «Нурфинанс» готов принимать инвестиции в сумме от 100 000 рублей сроком от 3-х месяцев
+                            до 3-х лет на следующих
+                            условиях:
+                        </p>
+                    </div>
+                    <div class="main__info-content-right">
+                        <p>
+                            Вкладчик (инвестор) вносит денежные средства в капитал Товарищества на вере «Нурфинанс»,
+                            становясь участником Товарищества
+                            на вере, неся риск убытков, связанных с деятельностью Товарищества, в пределах внесенного
+                            вклада, но при этом не принимает
+                            участие в осуществлении Товариществом предпринимательской деятельности. Такая форма участия
+                            инвестора основана на
+                            Шариатском стандарте «Мудараба». По договору, клиент-инвестор передает в управление свой
+                            капитал компании «Нур Финанс».
+                            Далее капитал направляются на финансирование торговых операций и бизнес-проектов. Начисление
+                            дохода, причитающегося к
+                            выплате Вкладчику (инвестору), осуществляется Товариществом ежемесячно.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__user">
+            <div class="container">
+                <div class="main__user-content">
+                    <div class="main__user-content-card">
+                        <img src="@/assets/img/man1.png" alt="" />
+
+                        <div class="main__user-content-card-shadow"></div>
+                        <div class="main__user-content-card-bottom">
+                            <p class="main__user-content-card-invest">Инвестиции</p>
+                            <h3>Вклад Накопительный</h3>
+
+                            <div class="main__user-content-card-nums">
+                                <div class="main__user-content-card-nums-box">
+                                    <h4>17,5%</h4>
+                                    <h4>90 дней</h4>
+                                </div>
+                                <div class="main__user-content-card-nums-box">
+                                    <p>Доходность, до</p>
+                                    <p>Срок вклада, от</p>
+                                </div>
+                            </div>
+
+                            <p class="main__user-content-card-invest">
+                                Доход выплачивается по окончании срока договора, возможно досрочное расторжение
+                            </p>
+                            <div class="main__user-content-card-btns">
+                                <button>Инвестировать</button>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__user-content-card">
+                        <img src="@/assets/img/man2.png" alt="" />
+
+                        <div class="main__user-content-card-shadow"></div>
+                        <div class="main__user-content-card-bottom">
+                            <p class="main__user-content-card-invest">Инвестиции</p>
+                            <h3>Вклад Активный</h3>
+
+                            <div class="main__user-content-card-nums">
+                                <div class="main__user-content-card-nums-box">
+                                    <h4>16,5%</h4>
+                                    <h4>90 дней</h4>
+                                </div>
+                                <div class="main__user-content-card-nums-box">
+                                    <p>Доходность, до</p>
+                                    <p>Срок вклада, от</p>
+                                </div>
+                            </div>
+
+                            <p class="main__user-content-card-invest">
+                                Доход выплачивается по окончании срока договора, возможно досрочное расторжение
+                            </p>
+                            <div class="main__user-content-card-btns">
+                                <button>Инвестировать</button>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__user-content-card">
+                        <img class="man3" src="@/assets/img/man3.png" alt="" />
+
+                        <div class="main__user-content-card-shadow"></div>
+                        <div class="main__user-content-card-bottom">
+                            <p class="main__user-content-card-invest">Инвестиции</p>
+                            <h3>Вклад Комфорт</h3>
+
+                            <div class="main__user-content-card-nums">
+                                <div class="main__user-content-card-nums-box">
+                                    <h4>17,5%</h4>
+                                    <h4>90 дней</h4>
+                                </div>
+                                <div class="main__user-content-card-nums-box">
+                                    <p>Доходность, до</p>
+                                    <p>Срок вклада, от</p>
+                                </div>
+                            </div>
+
+                            <p class="main__user-content-card-invest">
+                                Доход выплачивается по окончании срока договора, возможно досрочное расторжение
+                            </p>
+                            <div class="main__user-content-card-btns">
+                                <button>Инвестировать</button>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__ques">
+            <div class="container">
+                <div class="main__ques-content">
+                    <div class="main__ques-content-left">
+                        <p>
+                            У вас остались вопросы? <br />
+                            <span>Закажите консультацию специалиста</span>
+                        </p>
+                        <p>Мы подробно ответим на все ваши вопросы и подберем наиболее удобный вариант вклада</p>
+                        <div class="main__ques-content-left-btns">
+                            <button>Заказать консультацию</button>
+                            <button>Онлайн чат</button>
+                        </div>
+                    </div>
+                    <div class="main__ques-content-right">
+                        <img src="@/assets/img/man4.png" alt="" />
+                        <img src="@/assets/img/shape-bg.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__model">
+            <div class="container">
+                <div class="main__model-content">
+                    <h2 class="main__model-content-title">Модель работы</h2>
+                    <div class="main__model-content-box">
+                        <div class="main__model-content-box-lft">
+                            <p class="main__model-content-box-lft-title">Ваш инвестиционный вклад</p>
+                            <div class="main__model-content-box-lft-block">
+                                <img src="@/assets/img/model1.png" alt="" />
+                                <div class="main__model-content-box-lft-block-texts">
+                                    <p>
+                                        Инвестор <br />
+                                        фонда
+                                    </p>
+                                    <p>
+                                        Доход инвестора <br />
+                                        по вкладу
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__model-content-box-mddl">
+                            <img class="" src="@/assets/img/right.svg" alt="">
+                            <img class="" src="@/assets/img/left.svg" alt="">
+                            <img src="@/assets/img/center.png" alt="" />
+                            <img class="" src="@/assets/img/right.svg" alt="">
+                            <img class="" src="@/assets/img/left.svg" alt="">
+                        </div>
+                        <div class="main__model-content-box-rgt">
+                            <p class="main__model-content-box-lft-title">Финансирование</p>
+                            <div class="main__model-content-box-lft-block">
+                                <img src="@/assets/img/model.png" alt=""
+                                    class="main__model-content-box-lft-block-pics2" />
+                                <div class="main__model-content-box-lft-block-texts">
+                                    <p>
+                                        Инвестор <br />
+                                        фонда
+                                    </p>
+                                    <p>
+                                        Доход инвестора <br />
+                                        по вкладу
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </template>
